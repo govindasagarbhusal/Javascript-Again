@@ -4,8 +4,15 @@
         "compounds": []
     },
     "json.schemas": [
+
         // your existing schemas
     ],
     "javascript.suggest.enabled": false,
-    "typescript.suggest.enabled": false
+    "typescript.suggest.enabled": false,
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false
+    }
 }
