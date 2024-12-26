@@ -1,0 +1,11 @@
+{
+    "launch": {
+        "configurations": [],
+        "compounds": []
+    },
+    "json.schemas": [
+        // your existing schemas
+    ],
+    "javascript.suggest.enabled": false,
+    "typescript.suggest.enabled": false
+}
