@@ -20,4 +20,4 @@ let age = 20;
 
 console.log(typeof age);
 
-// type of null = object
+// type of null = Object
