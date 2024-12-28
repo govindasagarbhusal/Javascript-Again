@@ -48,3 +48,30 @@ let myObject = {
 const muFunction = function(){
     console.log('Hello World');
 }
+
+// **********************************Memory******************************************
+
+// Stack Memory => for all primitive types
+//  heap memory => for all non primitive types
+
+let myInstaName = "lazy.elepahnt_"
+
+let anotherName = myInstaName
+anotherName = "govinda"
+// console.log(anotherName); => govinda
+// console.log(myInstaName); => lazy.elephant_
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@esewa"
+}
+
+let userTwo = userOne 
+
+userTwo.email = "govinda@gmail.com"
+
+// console.log(userOne.email); => govinda@gmail.com
+// console.log(userTwo.email); => govinda@gmail.com
+
+// Whenever you access stack it gives you a copy of the value to work on
+// Whenever you access heap memory it gives you the refrence of the original value
