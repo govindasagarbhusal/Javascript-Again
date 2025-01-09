@@ -6,6 +6,7 @@
     "json.schemas": [
 
 
+
         // your existing schemas
     ],
     "javascript.suggest.enabled": false,
@@ -16,5 +17,6 @@
         "markdown": false,
         "scminput": false
     },
-    "editor.snippetSuggestions": "top"
+    "editor.snippetSuggestions": "top",
+    "files.insertFinalNewline": false,
 }
